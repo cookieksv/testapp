@@ -1,0 +1,11 @@
+.red-text {
+  color: blue;
+  a {
+    color: red;
+  }
+}
+
+.mycls {
+  @extend .red-text;
+  font-size: 12px;
+}
